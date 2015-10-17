@@ -11,7 +11,7 @@ import UIKit
 /**
   HUDController controls showing and hiding of the HUD, as well as its contents and touch response behavior.
 */
-public class PKHUD {
+public class PKHUD: NSObject {
     private struct Constants {
         static let sharedHUD = PKHUD()
     }
